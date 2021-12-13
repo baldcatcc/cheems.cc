@@ -17,7 +17,7 @@ local guimain = Instance.new("Folder", game.CoreGui)
 
 getgenv().makemarker = function(Parent, Adornee, Color, Size, Size2)
 	local e = Instance.new("BillboardGui", Parent)
-	e.Name = "cheem.cc shit"
+	e.Name = "epicgamershits"
 	e.Adornee = Adornee
 	e.Size = UDim2.new(Size, Size2, Size, Size2)
 	e.AlwaysOnTop = true
@@ -101,7 +101,7 @@ mouse.KeyDown:Connect(
 				game.StarterGui:SetCore(
 					"SendNotification",
 					{
-						Title = "going .cc",
+						Title = "Happy Aiden Hecker Mode",
 						Text = "Disabled",
 						Icon = "http://www.roblox.com/asset/?id=7157807693",
 						Duration = 1,
@@ -120,7 +120,7 @@ mouse.KeyDown:Connect(
 
 			if getgenv().Webhookmode == true then 
 
-				sendMessage("cheem.cc")
+				sendMessage("Wow you unlocked -- aiden and happy was here nigeros")
 
 			end
 			-- TextLabel.TextColor3 = Color3.fromRGB(255, 20, 75)
@@ -135,7 +135,7 @@ mouse.KeyDown:Connect(
 				game.StarterGui:SetCore(
 					"SendNotification",
 					{
-						Title = "going .cc",
+						Title = "wooooo water",
 						Text = "Locked on "..Plr.DisplayName.." Aka "..Plr.Name,
 						Icon = "http://www.roblox.com/asset/?id=7157807693",
 						Duration = 1,
@@ -193,16 +193,19 @@ mt.__namecall =
 
 
 
+-- edit here
+
+
+--// TOGGLES
+
+--// RAGEBOT
+
+
+--// variables etc
 
 
 
-
-
-
-
-
-
-    local LoaderTitle = "cheem.cc"
+    local LoaderTitle = "cheems.cc"
 
     local TweenService = game:GetService("TweenService")
 
@@ -387,7 +390,7 @@ mt.__namecall =
                                 {
                                     Title = "kittenassist.me",
                                     Text = "Created a file in workspace, delete it in the future if you want it to keep showing.",
-                                    Duration = 5
+                                    Duration = 0.001
                                 }
                             )
                         end
@@ -396,11 +399,11 @@ mt.__namecall =
                     StarterGui:SetCore(
                         "SendNotification",
                         {
-                            Title = "cheem.cc",
-                            Text = "i like water",
-                            Duration = 5,
+                            Title = "kittenassist.me",
+                            Text = "Would you like to disable the join buyer discord GUI?",
+                            Duration = 0.001,
                             Callback = bindable,
-                            Button1 = "No",
+                            Button1 = "Yes",
                             Button2 = "No"
                         }
                     )
@@ -415,9 +418,9 @@ mt.__namecall =
                         StarterGui:SetCore(
                             "SendNotification",
                             {
-                                Title = "cheem.cc",
-                                Text = "go check workspace you tard",
-                                Duration = 0.0000001
+                                Title = "kittenassist.me",
+                                Text = "Created a file in workspace, delete it in the future if you want it to keep showing.",
+                                Duration = 0.001
                             }
                         )
                     end
@@ -428,7 +431,7 @@ mt.__namecall =
                     {
                         Title = "kittenassist.me",
                         Text = "Would you like to disable the join buyer discord GUI?",
-                        Duration = 0.0000001,
+                        Duration = 0.001,
                         Callback = bindable,
                         Button1 = "Yes",
                         Button2 = "No"
@@ -482,7 +485,7 @@ mt.__namecall =
                                 {
                                     Title = "kittenassist.me",
                                     Text = "Created a file in workspace, delete it in the future if you want it to keep showing.",
-                                    Duration = 0.0000001
+                                    Duration = 0.001
                                 }
                             )
                         end
@@ -493,7 +496,7 @@ mt.__namecall =
                         {
                             Title = "kittenassist.me",
                             Text = "Would you like to disable the join buyer discord GUI?",
-                            Duration = 0.000001,
+                            Duration = 0.001,
                             Callback = bindable,
                             Button1 = "Yes",
                             Button2 = "No"
@@ -512,7 +515,7 @@ mt.__namecall =
                             {
                                 Title = "kittenassist.me",
                                 Text = "Created a file in workspace, delete it in the future if you want it to keep showing.",
-                                Duration = 0.0000001
+                                Duration = 0.001
                             }
                         )
                     end
@@ -521,9 +524,9 @@ mt.__namecall =
                 StarterGui:SetCore(
                     "SendNotification",
                     {
-                        Title = "cehheemc..c",
-                        Text = "no working",
-                        Duration = 0.00000001,
+                        Title = "kittenassist.me",
+                        Text = "Would you like to disable the join buyer discord GUI?",
+                        Duration = 0.001,
                         Callback = bindable,
                         Button1 = "Yes",
                         Button2 = "No"
@@ -540,7 +543,7 @@ mt.__namecall =
     Start.Position = UDim2.new(0.0591900349, 0, 0.630491614, 0)
     Start.Size = UDim2.new(0, 284, 0, 31)
     Start.Font = Enum.Font.Gotham
-    Start.Text = "press here"
+    Start.Text = "click here"
     Start.TextColor3 = Color3.fromRGB(255, 255, 255)
     Start.TextSize = 17.000
     Start.TextTransparency = 1
@@ -600,7 +603,7 @@ mt.__namecall =
                 end
             else
                 GameInfo.TextScaled = true
-                GameInfo.Text = "no more server"
+                GameInfo.Text = "Would you like to join the script buyer server?"
                 wait(0.1)
                 gui(GameInfo, {TextTransparency = 0})
                 gui(AcceptButton, {BackgroundTransparency = 0})
@@ -2704,10 +2707,10 @@ function library:AddWindow(title, options)
 end
 
 do
-    
+    --// UI PART
 
-    
-	local IMGUIWindow = library:AddWindow("cheem.cc", {
+    --// CREATING WINDOW FOR KITTENASSIST
+	local IMGUIWindow = library:AddWindow("cheems.cc", {
 		main_color = Color3.fromRGB(35, 35, 35),
 		min_size = Vector2.new(500, 600),
 		toggle_key = Enum.KeyCode.RightShift,
@@ -2716,12 +2719,12 @@ do
 
 	local ESP = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))() --// ESP Library
 
-    
-	local rageBot = IMGUIWindow:AddTab("br tab")
-	local silentAimbotTab = IMGUIWindow:AddTab("silant aim")
-	local aimlockTab = IMGUIWindow:AddTab("kimbladi")
-	local espTab = IMGUIWindow:AddTab(".")
-	local miscTab = IMGUIWindow:AddTab(".")
+    --// TABS
+	local rageBot = IMGUIWindow:AddTab("rage hack")
+	local silentAimbotTab = IMGUIWindow:AddTab("SA")
+	local aimlockTab = IMGUIWindow:AddTab("lock")
+	local espTab = IMGUIWindow:AddTab("esp")
+	local miscTab = IMGUIWindow:AddTab("misc")
 	local anotherTab = IMGUIWindow:AddTab(".")
 
 	local HttpService = game:GetService("HttpService")
@@ -2742,31 +2745,31 @@ do
 
 	do
 
-		local silenabled = silentAimbotTab:AddSwitch("no need for seetings silent aim",function(state)
+		local silenabled = silentAimbotTab:AddSwitch("Silent Aim",function(state)
 
 			getgenv().SilentAimbot = state
 		
 		end)
 
-		local silenabled2 = silentAimbotTab:AddSwitch("hit airshots but laggy",function(state)
+		local silenabled2 = silentAimbotTab:AddSwitch("hits air shots but laggy",function(state)
 
 			getgenv().AirshotSilent = state
 		
 		end)
 
-		local silenabled2 = silentAimbotTab:AddSwitch("webhok",function(state)
+		local silenabled2 = silentAimbotTab:AddSwitch("webhook",function(state)
 
 			getgenv().Webhookmode = state
 		
 		end)
 
-		local silenabled3 = silentAimbotTab:AddSwitch("tells you who you lock to",function(state)
+		local silenabled3 = silentAimbotTab:AddSwitch("tells you who you locking onto",function(state)
 
 			getgenv().NotifMode = state
 		
 		end)
 
-		local silenabled4 = silentAimbotTab:AddSwitch("copy username to clipboard",function(state)
+		local silenabled4 = silentAimbotTab:AddSwitch("Copy Mode",function(state)
 
 			getgenv().CopyMode = state
 		
@@ -2774,18 +2777,19 @@ do
 
 		silentAimbotTab:AddLabel("cool things")
 
-        
-		anotherTab:AddLabel("credats")
+        --// LABELS
+		anotherTab:AddLabel("cradits")
 		anotherTab:AddLabel("me")
-		anotherTab:AddLabel("my brains")
-		anotherTab:AddLabel("my hands")
-		anotherTab:AddLabel("my eyes")
+		anotherTab:AddLabel("me")
+		anotherTab:AddLabel("me")
+        anotherTab:AddLabel("and")
+		anotherTab:AddLabel("me")
 
-		miscTab:AddLabel("If you die press fix")
-		miscTab:AddLabel("basically real macro written lua")
+		miscTab:AddLabel("press fix for fix aa if you die")
+		miscTab:AddLabel("speed glitch is real speed glitch but except written in lua")
         
      
-		
+		--// TEXTBOX
 
         repeat wait() until game:IsLoaded()
 
@@ -2819,6 +2823,7 @@ do
         end
 
         getgenv().GetNearestTarget = function()
+            -- Credits to whoever made this, i didnt make it, and my own mouse2plr function kinda sucks
             local players = {}
             local PLAYER_HOLD  = {}
             local DISTANCES = {}
@@ -2969,11 +2974,11 @@ do
 
         end)
 
-	    local aimlockEnable = aimlockTab:AddSwitch("kimbladi", function(state)
+	    local aimlockEnable = aimlockTab:AddSwitch("Aimlock", function(state)
             getgenv().Aimlock = not getgenv().Aimlock
         end)
 
-        local aimlockEnable = aimlockTab:AddSwitch("hit all airshot but can be glitchy", function(state)
+        local aimlockEnable = aimlockTab:AddSwitch("kinda hits airshot but buggy", function(state)
             getgenv().CheckIfJumped = state
         end)
 
@@ -2985,7 +2990,7 @@ do
 			["clear"] = false,
 		})
 
-        aimlockTab:AddTextBox("aim length", function(a)
+        aimlockTab:AddTextBox("aim radius (how far the target should be)", function(a)
 		
             getgenv().AimRadius = tonumber(a)
 		
@@ -2996,12 +3001,12 @@ do
 
 		
 
-		
+		-- edit here
 
 
-        
+        --// TOGGLES
 
-		
+		--// RAGEBOT
 
 		--[[
 		while wait() do 
@@ -3027,9 +3032,9 @@ do
 		end
 		]]
 
-		rageBot:AddLabel("beta tings")
+		rageBot:AddLabel("Things might be glitchy it's in beta")
 
-		local triggerbotEnable = rageBot:AddSwitch("no work 85% time dont use", function(state)
+		local triggerbotEnable = rageBot:AddSwitch("Trigger Bot (might work, might not)", function(state)
 			local player = game.Players.LocalPlayer
 			local mouse = player:GetMouse()
 			local Players = game:FindService("Players")
@@ -3050,7 +3055,7 @@ do
 			end
 		end)
 
-		rageBot:AddTextBox("spinny spin", function(a)
+		rageBot:AddTextBox("Spin Bot Speed", function(a)
 		
             getgenv().SpinBotSpeed = tonumber(a)
 		
@@ -3058,7 +3063,7 @@ do
 			["clear"] = false,
 		})
 
-		local spinbotEnable = rageBot:AddSwitch("spin bot", function(state)
+		local spinbotEnable = rageBot:AddSwitch("Spin Bot", function(state)
 
 			function getRoot(char)
 				local rootPart = char:FindFirstChild('HumanoidRootPart') or char:FindFirstChild('UpperTorso')
@@ -3080,7 +3085,7 @@ do
 			end
 		end)
 		
-		rageBot:AddTextBox("funni lag", function(a)
+		rageBot:AddTextBox("Fake Lag Speed", function(a)
 		
             getgenv().FakeLagSpeed = tonumber(a)
 		
@@ -3088,7 +3093,7 @@ do
 			["clear"] = false,
 		})
 		
-		local fakelagEnable = rageBot:AddSwitch("fake lag ", function(state)
+		local fakelagEnable = rageBot:AddSwitch("Fake Lag", function(state)
              _G.fakelagEnableState = false
             local Player = game:GetService("Players").LocalPlayer
 			local runService = game:service('RunService')
@@ -3105,38 +3110,38 @@ do
 			end
 		end)
 
-		local espEnable = espTab:AddSwitch("know where people are", function(onoff)
+		local espEnable = espTab:AddSwitch("press here to know where people are", function(onoff)
 
 
 			ESP:Toggle(onoff)
 			ESP.Players = onoff
 
-            
+            -- i have to make esp
 		end)
 
-		local tracersEnable = espTab:AddSwitch("tracer", function(onoff)
+		local tracersEnable = espTab:AddSwitch("Enable Tracers", function(onoff)
 
 			ESP.Tracers = onoff
 
-            
+            -- i have to make esp
 		end)
 
-		local namesEnable = espTab:AddSwitch("shows you esp names", function(onoff)
+		local namesEnable = espTab:AddSwitch("Enable Names", function(onoff)
 
 			ESP.Names = onoff
 
-            
+            -- i have to make esp
 		end)
 
-		local boxesEnable = espTab:AddSwitch("boxes around players", function(onoff)
+		local boxesEnable = espTab:AddSwitch("Enable Boxes", function(onoff)
 
 			ESP.Boxes = onoff
 
-            
+            -- i have to make esp
 		end)
 
-		
-		miscTab:AddButton("press to fix antilock", function()
+		--// BUTTONS
+		miscTab:AddButton("press here to fix antilock", function()
 		
 			for _, v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
 				if v:IsA("Script") and v.Name ~= "Health" and v.Name ~= "Sound" and v:FindFirstChild("LocalScript") then
@@ -3162,7 +3167,7 @@ do
 		local glitch = false
 		local clicker = false
 		
-		miscTab:AddTextBox("antilock (use -0.10 -0.60 can be used for speed glitch as well)", function(a)
+		miscTab:AddTextBox("Speed (use -0.10 to -0.60 [antilock], can be used for speed hack)", function(a)
 		
             getgenv().Multiplier = a
 		
@@ -3171,7 +3176,7 @@ do
 		})
 
 
-		miscTab:AddButton("antilock best (Z)", function()
+		miscTab:AddButton("anti lock Improved (Z)", function()
 			local userInput = game:service('UserInputService')
 			local runService = game:service('RunService')
 			
@@ -3188,7 +3193,7 @@ do
 			end)
 		end)
 		
-		miscTab:AddButton("speed glitch (x)", function()
+		miscTab:AddButton("macro (X)", function()
 			local Player = game:GetService("Players").LocalPlayer
 			local Mouse = Player:GetMouse()
 			local SpeedGlitch = false
@@ -3258,33 +3263,33 @@ do
 		end)
 
 
-		
+		--// DROPDOWNS
 
-		local bodySelect = aimlockTab:AddDropdown("bodypart", function(objective)
+		local bodySelect = aimlockTab:AddDropdown("Bodypart", function(objective)
 
 			getgenv().AimPart = objective
 			getgenv().OldAimPart = objective
 		
 		end)
 
-		bodySelect:Add("head")
-		bodySelect:Add("uptorso")
-		bodySelect:Add("humanoidroot")
-		bodySelect:Add("lowtorso")
+		bodySelect:Add("Head")
+		bodySelect:Add("UpperTorso")
+		bodySelect:Add("HumanoidRootPart")
+		bodySelect:Add("LowerTorso")
 
-		local bodySelect2 = silentAimbotTab:AddDropdown("bodypart", function(objective)
+		local bodySelect2 = silentAimbotTab:AddDropdown("Bodypart", function(objective)
 
 			_G.PART = objective
 			_G.PART2 = objective
 		
 		end)
 
-		bodySelect2:Add("head")
-		bodySelect2:Add("uptorso")
-		bodySelect2:Add("humanoidroot")
-		bodySelect2:Add("lowtorso")
+		bodySelect2:Add("Head")
+		bodySelect2:Add("UpperTorso")
+		bodySelect2:Add("HumanoidRootPart")
+		bodySelect2:Add("LowerTorso")
 
-    
+    --// DISABLE ENABLE TOGGLES
 
 		aimbotEnableSwitch:Set(false)
 		crewCheckSwitch:Set(false)
@@ -3295,7 +3300,7 @@ do
 		boxesEnable:Set(false)
 
 
-		
+		--// DISABLE ENABLE TOGGLES
 		aimbotEnableSwitch:Set(false)
 		crewCheckSwitch:Set(false)
 
@@ -3315,7 +3320,7 @@ do
 end
 
 
-    
+    -- // LAUNCH TABS
     
 	aimlockTab:Show()
 	espTab:Show()
